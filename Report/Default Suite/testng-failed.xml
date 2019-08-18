@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="SearchFunctionality(failed)">
+    <classes>
+      <class name="HomePage_Search_Test">
+        <methods>
+          <include name="destroy"/>
+          <include name="SearchAddressTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- HomePage_Search_Test -->
+    </classes>
+  </test> <!-- SearchFunctionality(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

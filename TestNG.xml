@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test_SearchAddress"  thread-count="5" parallel="methods">
+    <test name="SearchAddressTest">
+        <classes>
+            <class name="HomePage_Search_Test"/>
+        </classes>
+    </test>
+</suite>

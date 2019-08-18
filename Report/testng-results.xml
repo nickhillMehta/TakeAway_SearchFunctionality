@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[--Testing Search functionality with Parameters::]]>
+    </line>
+    <line>
+      <![CDATA[--Search Address set in search address textbox::Amsterdam-Centrum, Amsterdam]]>
+    </line>
+    <line>
+      <![CDATA[Trying to select: Amsterdam-Centrum, Amsterdam]]>
+    </line>
+    <line>
+      <![CDATA[--Results for search address::]]>
+    </line>
+    <line>
+      <![CDATA[--Assertion Passes:Address visible in Top bar on Result page::]]>
+    </line>
+    <line>
+      <![CDATA[--Assertion Passes:Search String visible in Top bar on Result page::]]>
+    </line>
+    <line>
+      <![CDATA[--Assertion Passes:Kitchen types visible in Kitchen Ribbon on Result page::]]>
+    </line>
+    <line>
+      <![CDATA[--Expected Result matches Actual Result::]]>
+    </line>
+    <line>
+      <![CDATA[--Testing Search functionality with Parameters::]]>
+    </line>
+    <line>
+      <![CDATA[--Search Address set in search address textbox::1025]]>
+    </line>
+    <line>
+      <![CDATA[--Results for search address::]]>
+    </line>
+    <line>
+      <![CDATA[--Assertion Passes:Address visible in Top bar on Result page::]]>
+    </line>
+    <line>
+      <![CDATA[--Assertion Passes:Search String visible in Top bar on Result page::]]>
+    </line>
+    <line>
+      <![CDATA[--Assertion Passes:Kitchen types visible in Kitchen Ribbon on Result page::]]>
+    </line>
+    <line>
+      <![CDATA[--Expected Result matches Actual Result::]]>
+    </line>
+    <line>
+      <![CDATA[--Testing Search functionality with Parameters::]]>
+    </line>
+    <line>
+      <![CDATA[--Search Address set in search address textbox::utrecht]]>
+    </line>
+    <line>
+      <![CDATA[--Results for search address::]]>
+    </line>
+    <line>
+      <![CDATA[--Expected Result matches Actual Result::]]>
+    </line>
+    <line>
+      <![CDATA[--Testing Search functionality with Parameters::]]>
+    </line>
+    <line>
+      <![CDATA[--Search Address set in search address textbox::hague]]>
+    </line>
+    <line>
+      <![CDATA[--Results for search address::]]>
+    </line>
+    <line>
+      <![CDATA[--Expected Result matches Actual Result::]]>
+    </line>
+    <line>
+      <![CDATA[--Testing Search functionality with Parameters::]]>
+    </line>
+    <line>
+      <![CDATA[--Search Address set in search address textbox::1000]]>
+    </line>
+    <line>
+      <![CDATA[--Results for search address::]]>
+    </line>
+    <line>
+      <![CDATA[--Expected Result matches Actual Result::]]>
+    </line>
+    <line>
+      <![CDATA[--Testing Search functionality with Parameters::]]>
+    </line>
+    <line>
+      <![CDATA[--Search Address set in search address textbox::1222]]>
+    </line>
+    <line>
+      <![CDATA[--Results for search address::]]>
+    </line>
+    <line>
+      <![CDATA[--Assertion Passes:Address visible in Top bar on Result page::]]>
+    </line>
+    <line>
+      <![CDATA[--Assertion Passes:Search String visible in Top bar on Result page::]]>
+    </line>
+    <line>
+      <![CDATA[--Assertion Passes:Kitchen types visible in Kitchen Ribbon on Result page::]]>
+    </line>
+    <line>
+      <![CDATA[--Expected Result matches Actual Result::]]>
+    </line>
+  </reporter-output>
+  <suite name="Test_SearchAddress" duration-ms="93022" started-at="2019-08-18T22:14:04Z" finished-at="2019-08-18T22:15:37Z">
+    <groups>
+    </groups>
+    <test name="SearchAddressTest" duration-ms="93022" started-at="2019-08-18T22:14:04Z" finished-at="2019-08-18T22:15:37Z">
+      <class name="HomePage_Search_Test">
+        <test-method status="PASS" signature="SearchAddressTest(java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:HomePage_Search_Test@59a6e353]" name="SearchAddressTest" duration-ms="17011" started-at="2019-08-18T22:14:05Z" data-provider="data-provider" finished-at="2019-08-18T22:14:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amsterdam-Centrum, Amsterdam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.thuisbezorgd.nl/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--Testing Search functionality with Parameters::]]>
+            </line>
+            <line>
+              <![CDATA[--Search Address set in search address textbox::Amsterdam-Centrum, Amsterdam]]>
+            </line>
+            <line>
+              <![CDATA[Trying to select: Amsterdam-Centrum, Amsterdam]]>
+            </line>
+            <line>
+              <![CDATA[--Results for search address::]]>
+            </line>
+            <line>
+              <![CDATA[--Assertion Passes:Address visible in Top bar on Result page::]]>
+            </line>
+            <line>
+              <![CDATA[--Assertion Passes:Search String visible in Top bar on Result page::]]>
+            </line>
+            <line>
+              <![CDATA[--Assertion Passes:Kitchen types visible in Kitchen Ribbon on Result page::]]>
+            </line>
+            <line>
+              <![CDATA[--Expected Result matches Actual Result::]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchAddressTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:HomePage_Search_Test@59a6e353]" name="destroy" is-config="true" duration-ms="1124" started-at="2019-08-18T22:14:22Z" finished-at="2019-08-18T22:14:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="SearchAddressTest(java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:HomePage_Search_Test@59a6e353]" name="SearchAddressTest" duration-ms="15055" started-at="2019-08-18T22:14:23Z" data-provider="data-provider" finished-at="2019-08-18T22:14:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1025]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.thuisbezorgd.nl/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--Testing Search functionality with Parameters::]]>
+            </line>
+            <line>
+              <![CDATA[--Search Address set in search address textbox::1025]]>
+            </line>
+            <line>
+              <![CDATA[--Results for search address::]]>
+            </line>
+            <line>
+              <![CDATA[--Assertion Passes:Address visible in Top bar on Result page::]]>
+            </line>
+            <line>
+              <![CDATA[--Assertion Passes:Search String visible in Top bar on Result page::]]>
+            </line>
+            <line>
+              <![CDATA[--Assertion Passes:Kitchen types visible in Kitchen Ribbon on Result page::]]>
+            </line>
+            <line>
+              <![CDATA[--Expected Result matches Actual Result::]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchAddressTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:HomePage_Search_Test@59a6e353]" name="destroy" is-config="true" duration-ms="2942" started-at="2019-08-18T22:14:38Z" finished-at="2019-08-18T22:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="SearchAddressTest(java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:HomePage_Search_Test@59a6e353]" name="SearchAddressTest" duration-ms="10559" started-at="2019-08-18T22:14:41Z" data-provider="data-provider" finished-at="2019-08-18T22:14:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[utrecht]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.thuisbezorgd.nl/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--Testing Search functionality with Parameters::]]>
+            </line>
+            <line>
+              <![CDATA[--Search Address set in search address textbox::utrecht]]>
+            </line>
+            <line>
+              <![CDATA[--Results for search address::]]>
+            </line>
+            <line>
+              <![CDATA[--Expected Result matches Actual Result::]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchAddressTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:HomePage_Search_Test@59a6e353]" name="destroy" is-config="true" duration-ms="1137" started-at="2019-08-18T22:14:52Z" finished-at="2019-08-18T22:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="SearchAddressTest(java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:HomePage_Search_Test@59a6e353]" name="SearchAddressTest" duration-ms="12037" started-at="2019-08-18T22:14:53Z" data-provider="data-provider" finished-at="2019-08-18T22:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hague]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.thuisbezorgd.nl/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--Testing Search functionality with Parameters::]]>
+            </line>
+            <line>
+              <![CDATA[--Search Address set in search address textbox::hague]]>
+            </line>
+            <line>
+              <![CDATA[--Results for search address::]]>
+            </line>
+            <line>
+              <![CDATA[--Expected Result matches Actual Result::]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchAddressTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:HomePage_Search_Test@59a6e353]" name="destroy" is-config="true" duration-ms="2585" started-at="2019-08-18T22:15:05Z" finished-at="2019-08-18T22:15:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="SearchAddressTest(java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:HomePage_Search_Test@59a6e353]" name="SearchAddressTest" duration-ms="10712" started-at="2019-08-18T22:15:07Z" data-provider="data-provider" finished-at="2019-08-18T22:15:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.thuisbezorgd.nl/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--Testing Search functionality with Parameters::]]>
+            </line>
+            <line>
+              <![CDATA[--Search Address set in search address textbox::1000]]>
+            </line>
+            <line>
+              <![CDATA[--Results for search address::]]>
+            </line>
+            <line>
+              <![CDATA[--Expected Result matches Actual Result::]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchAddressTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:HomePage_Search_Test@59a6e353]" name="destroy" is-config="true" duration-ms="2612" started-at="2019-08-18T22:15:18Z" finished-at="2019-08-18T22:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="SearchAddressTest(java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:HomePage_Search_Test@59a6e353]" name="SearchAddressTest" duration-ms="15640" started-at="2019-08-18T22:15:21Z" data-provider="data-provider" finished-at="2019-08-18T22:15:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1222]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.thuisbezorgd.nl/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--Testing Search functionality with Parameters::]]>
+            </line>
+            <line>
+              <![CDATA[--Search Address set in search address textbox::1222]]>
+            </line>
+            <line>
+              <![CDATA[--Results for search address::]]>
+            </line>
+            <line>
+              <![CDATA[--Assertion Passes:Address visible in Top bar on Result page::]]>
+            </line>
+            <line>
+              <![CDATA[--Assertion Passes:Search String visible in Top bar on Result page::]]>
+            </line>
+            <line>
+              <![CDATA[--Assertion Passes:Kitchen types visible in Kitchen Ribbon on Result page::]]>
+            </line>
+            <line>
+              <![CDATA[--Expected Result matches Actual Result::]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchAddressTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:HomePage_Search_Test@59a6e353]" name="destroy" is-config="true" duration-ms="1100" started-at="2019-08-18T22:15:36Z" finished-at="2019-08-18T22:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- HomePage_Search_Test -->
+    </test> <!-- SearchAddressTest -->
+  </suite> <!-- Test_SearchAddress -->
+</testng-results>

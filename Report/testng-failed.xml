@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test_SearchAddress]" parallel="methods">
+  <test thread-count="5" name="SearchAddressTest(failed)" parallel="methods">
+    <classes>
+      <class name="HomePage_Search_Test">
+        <methods>
+          <include name="destroy"/>
+          <include name="SearchAddressTest" invocation-numbers="5"/>
+        </methods>
+      </class> <!-- HomePage_Search_Test -->
+    </classes>
+  </test> <!-- SearchAddressTest(failed) -->
+</suite> <!-- Failed suite [Test_SearchAddress] -->
