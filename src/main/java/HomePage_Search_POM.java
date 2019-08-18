@@ -119,7 +119,10 @@ public class HomePage_Search_POM {
                 }
                 return true;
 
-            } else {
+            }
+
+
+            else {
                 for (WebElement option : optionsToSelect) {
                     System.out.println(option.getText());
                     if (option.getText().equals(textToSelect)) {
@@ -135,11 +138,13 @@ public class HomePage_Search_POM {
                 } else return true;
             }
         } catch (NoSuchElementException e) {
-            System.out.println(e.getStackTrace());
+            System.out.println(e);
+            return false;
         } catch (Exception e) {
-            System.out.println(e.getStackTrace());
+            System.out.println(e);
+            return false;
         }
-        return false;
+
     }
 
 
