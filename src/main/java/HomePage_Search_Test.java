@@ -77,7 +77,7 @@ public class HomePage_Search_Test {
 
     @DataProvider(name = "data-provider")
     public Object[][] dataProviderMethod() {
-        return new Object[][]{{"Amsterdam-Centrum, Amsterdam", true, "Chrome", "https://www.thuisbezorgd.nl/"}, {"1025", true, "Firefox", "https://www.thuisbezorgd.nl/"}, {"utrecht", false, "Chrome", "https://www.thuisbezorgd.nl/"}, {"hague", false, "Firefox", "https://www.thuisbezorgd.nl/"}, {"1000", false, "firefox", "https://www.thuisbezorgd.nl/"},{"1222", true, "chrome", "https://www.thuisbezorgd.nl/"}};
+        return new Object[][]{{"Amsterdam-Centrum, Amsterdam", true, "Chrome", "https://www.thuisbezorgd.nl/"}, {"1025", true, "Firefox", "https://www.thuisbezorgd.nl/"}, {"utrecht", false, "Chrome", "https://www.thuisbezorgd.nl/"}, {"xqplghtzd", false, "Firefox", "https://www.thuisbezorgd.nl/"}, {"1000", false, "firefox", "https://www.thuisbezorgd.nl/"},{"1222", true, "chrome", "https://www.thuisbezorgd.nl/"}};
     }
 
     @AfterMethod
